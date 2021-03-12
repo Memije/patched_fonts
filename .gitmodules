@@ -1,0 +1,6 @@
+[submodule "Iosevka"]
+	path = Iosevka
+	url = git@github.com:be5invis/Iosevka.git
+[submodule "nerd-fonts"]
+	path = nerd-fonts
+	url = https://github.com/ryanoasis/nerd-fonts
