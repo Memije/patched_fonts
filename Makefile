@@ -2,7 +2,7 @@ IOSEVKA_SRC=./Iosevka
 IOSEVKA_DIST=./Iosevka/dist
 NERD_FONTS=./nerd-fonts
 PATCHED_DIR=./patched
-PATCH_INCLUDE=--fontawesome --octicons --powersymbols --powerline
+PATCH_INCLUDE=--complete
 BUILD_NAME=iosevka-custom
 BUILD_TYPE=ttf
 # BUILD_TYPE=ttf-unhinted
@@ -25,3 +25,4 @@ patch: $(IOSEVKA_DIST)/$(BUILD_NAME)/$(BUILD_TYPE)/*.ttf
 
 clean:
 	rm -rf $(IOSEVKA_DIST)
+	rm -rf $(PATCHED_DIR)
